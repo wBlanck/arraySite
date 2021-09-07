@@ -310,3 +310,44 @@ section {
   bottom: -2px;
   left: 0;
 }
+
+/* stats section */
+.stats {
+
+}
+.stats__content {
+  display: flex;
+  justify-content: space-between;
+}
+.info__container {
+  width: 40%;
+}
+.stats__img {
+  width: 55%;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info + .info {
+  margin-top: 20px;
+}
+.info__img {
+  width: 30px;
+  height: 30px;
+}
+.info__text {
+  text-align: start;
+  margin-left: 30px;
+}
+.info__title {
+  color: var(--clr-darkblue);
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.info__paragraph {
+  color: #97a6b5;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
