@@ -434,3 +434,59 @@ section {
 .person__company:hover::after {
   width: 100%;
 }
+
+/* pricing section  */
+.pricing {
+
+}
+.pricing__content {
+
+}
+.pricing__headings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pricing__desc {
+  width: 65%;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.card {
+  width: 48%;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
+}
+.card__title {
+  color: var(--clr-purple);
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size: 1.3125rem;
+}
+.card__img {
+  width: 60px;
+  height: 60px;
+}
+.card__price {
+  color: #364655;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.card__feature {
+  font-size: 1rem;
+  color: #97a6b5;
+}
+.card__feature + .card__feature {
+  margin-top: 15px;
+}
+.card button {
+  margin-top: 75px;
+}
