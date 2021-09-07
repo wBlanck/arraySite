@@ -38,6 +38,9 @@ section {
 .section-title {
   color: var(--clr-darkblue);
   margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 1.75rem;
 }
 
 .btn {
@@ -45,28 +48,31 @@ section {
   color: var(--clr-white);
   border: none;
   border-radius: 5px;
-  padding: 8px 12px;
   cursor: pointer;
   font-family: var(--ff-primary);
   border: 1px solid var(--clr-purple);
-  
 }
 .btn:hover {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0,.2);
-  border: 1px solid transparent !important;
+  border: 1px solid transparent;
   outline: none;
   transition: box-shadow .5s ease-in-out;
 }
 .btn--small {
   text-transform: capitalize;
+  padding: 6px 10px;
 }
 .btn--big {
   text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 8px 27px;
+  font-size: 0.75rem;
 }
 
 /* HEADER / NAV */
 .header {
-
+  box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
 }
 .nav {
   display: flex;
@@ -107,15 +113,78 @@ section {
   flex-direction: column;
   text-align: center;
 }
+.home__img {
+  width: 80%;
+  margin-bottom: 25px;
+  align-self: center;
+}
 .home__paragraph {
-
+  margin-bottom: 25px;
 }
 .sponsors {
-
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .sponsor {
-
+  width: 100px;
+  cursor: pointer;
+  opacity: .9;
+}
+.sponsor:hover {
+  opacity: .7;
 }
 .home__content button {
   align-self: center;
+}
+/* feature section */
+.features {
+  background-color: var(--clr-white);
+}
+.feature__content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.feature {
+  max-width: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.feature__text {
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+.feature__img-container {
+  width: 65px;
+  height: 65px;
+  background-color: #ece7fe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature__img {
+  width: 35px;
+}
+.feature__title {
+  color: var(--clr-darkblue);
+  font-weight: 500;
+  line-height: 1;
+  font-size: 1.3125rem;
+  margin: 22px 0;
+}
+.feature__paragraph {
+  font-size: 15px;
+  line-height: 1.6;
 }
