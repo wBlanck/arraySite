@@ -15,7 +15,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: var(--ff-primary);
   font-weight: 500;
@@ -90,6 +92,24 @@ section {
 }
 .hover-underline:hover::after {
   width: 100%;
+}
+.scroll-top {
+  background-color: var(--clr-purple);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.scroll-top a {
+  color: #fff;
+  font-size: .75rem;
+  font-weight: 700;
 }
 /* HEADER / NAV */
 .header {
