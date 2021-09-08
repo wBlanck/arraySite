@@ -490,3 +490,53 @@ section {
 .card button {
   margin-top: 75px;
 }
+
+/* signup section */
+.signup {
+  background-color:#f6f6fd;
+}
+.signup__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup__headings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.signup__headings .section-title {
+  line-height: 1.6;
+  width: 78%;
+}
+.signup__desc {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  color: #aeaeae;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  min-width: 420px;
+}
+.form__input {
+  font-size: 0.8125rem;
+  padding: 15px 50px;
+  font-family: var(--ff-primary);
+  border-radius: 3px;
+  color: var(--clr-purple);
+  border: 1px solid var(--clr-purple);
+  margin-bottom: 15px;
+}
+.form button {
+  font-size: 0.875rem;
+  padding: 15px 50px;
+  margin-bottom: 15px;
+}
+.form__desc {
+  font-size: 0.75rem;
+  color: #97a6b5;
+}
