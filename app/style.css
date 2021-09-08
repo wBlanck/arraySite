@@ -94,11 +94,15 @@ section {
 /* HEADER / NAV */
 .header {
   box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 10;
 }
 .nav {
   display: flex;
   align-items: center;
-  padding: 23px 40px;
+  padding: 20px 40px;  
 }
 
 .nav__list {
